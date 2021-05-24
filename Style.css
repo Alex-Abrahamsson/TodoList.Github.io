@@ -7,7 +7,19 @@
 
 body 
 {
-    background: rgb(17, 17, 17);
+    background: rgb(15, 15, 15);
+}
+
+h1
+{
+    padding-left: 42%;
+    padding-top: 5px;
+    color: rgb(1, 155, 1);
+}
+
+span
+{
+    color: white;
 }
 
 .container 
@@ -18,7 +30,7 @@ body
     position: absolute;
     top: 10%;
     left: 35%;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .todoList
 {
@@ -28,10 +40,10 @@ body
     align-items: center;
     background: white;
     padding: 5px;
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid gray;
     border-radius: 5px;
     height: 40px;
-    box-shadow: 5px 5px black;
+    box-shadow: 5px 5px rgb(51, 51, 51);
     font-weight: bold;
     flex-wrap: wrap;
     width: 325px;
@@ -44,7 +56,7 @@ body
     height: 25px;
     text-align: center;
     border-radius: 50%;
-    background: orangered;
+    background: red;
     color: white;
     outline: none;
     align-items: center;
@@ -69,9 +81,9 @@ body
 {
     width: 250px;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-right: 5px;
-    border: 2px solid blue;
+    border: 2px solid gray;
 }
 
 .btn
@@ -82,8 +94,8 @@ body
     text-transform: uppercase;
     font-weight: bold;
     outline-style: none;
-    border-radius: 5px;
-    box-shadow: 1px 1px black;
+    border-radius: 10px;
+    box-shadow: 1px 1px gray;
     cursor: pointer;
 }
 
@@ -93,13 +105,14 @@ body
     position: absolute;
     bottom: 5px;
     left: 15%;
-    background: orangered;
+    background: red;
     color: white;
     width: 250px;
     height: 35px;
-    border-radius: 5px;
+    border-radius: 20px;
     text-transform: capitalize;
     font-weight: bold;
     cursor: pointer;
     outline-style: none;
 }
+
