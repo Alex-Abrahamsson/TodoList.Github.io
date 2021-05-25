@@ -47,7 +47,13 @@ span
     font-weight: bold;
     flex-wrap: wrap;
     width: 325px;
+    transition: 100ms ease-in-out;
 }
+.todoList:hover
+{
+    transform: scale(1.03);
+}
+
 
 .deleteTask
 {
@@ -62,6 +68,12 @@ span
     align-items: center;
     margin: 0;
     padding: 0;
+    transition: all 200ms ease-in-out;
+}
+
+.deleteTask:hover
+{
+    transform: scale(1.3);
 }
 
 .pText
@@ -97,6 +109,12 @@ span
     border-radius: 10px;
     box-shadow: 1px 1px gray;
     cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+.btn:hover
+{
+    transform: scale(1.1);
 }
 
 
@@ -114,5 +132,24 @@ span
     font-weight: bold;
     cursor: pointer;
     outline-style: none;
+    transition: all 200ms ease-in-out;
 }
 
+
+.clearTasks:hover
+{
+    transform: scale(1.1);
+}
+
+
+@keyframes smooth 
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
