@@ -5,15 +5,19 @@
     box-sizing: border-box;
 }
 
+
 body 
 {
-    background: rgb(15, 15, 15);
+    background-color: rgba(0, 0, 0, 0.952);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
 }
 
 h1
 {
-    padding-left: 42%;
-    padding-top: 5px;
+    padding-left: 33%;
+    padding-top: 10px;
     color: rgb(1, 155, 1);
 }
 
@@ -24,12 +28,10 @@ span
 
 .container 
 {
-    width: 350px;
-    height: 620px;
-    background: black;
+    width: 360px;
+    height: 760px;
+    background: #000;
     position: absolute;
-    top: 10%;
-    left: 35%;
     border-radius: 15px;
 }
 .todoList

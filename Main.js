@@ -15,6 +15,7 @@ addTaskBtn.addEventListener("click", () =>
         }
         tasklist.push(inputVal.value);
         localStorage.setItem("localItem", JSON.stringify(tasklist))
+        inputVal.value = "";
     }
 
     ShowList();
@@ -61,4 +62,5 @@ function ClearTasks()
 {
     localStorage.clear();
     ShowList();
+    inputVal.value = "";
 }
