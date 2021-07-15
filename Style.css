@@ -23,16 +23,18 @@ h1
 
 span
 {
-    color: white;
+    color: red;
 }
 
 .container 
 {
     width: 360px;
     height: 760px;
-    background: #000;
+    border: 9px solid;
+    border-image: url(./Images/border.jpg) 40 round;
+    background-image: url(./Images/Getit.png);
+    background-size: contain;
     position: absolute;
-    border-radius: 15px;
 }
 .todoList
 {
@@ -87,7 +89,7 @@ span
 .inputvalue
 {
     display: flex;
-    margin: 5px;
+    margin: 10px;
     margin-bottom: 25px;
 }
 
