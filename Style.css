@@ -176,9 +176,9 @@ span
     padding: 2rem 8rem;
     background-color: #fff;
     transition: opacity 1s ease;
+}
 
-    &.hidden
-    {
-        opacity: 0;
-    }
+#consent-popup.hidden
+{
+    opacity: 0;
 }
