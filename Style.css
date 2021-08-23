@@ -181,4 +181,5 @@ span
 #consent-popup.hidden
 {
     opacity: 0;
+    background-color: red;
 }
